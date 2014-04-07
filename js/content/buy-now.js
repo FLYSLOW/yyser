@@ -1,5 +1,7 @@
+// 物流地址: http://a.tbcdn.cn/p/address/130806/tdist_py.js
 var BuyNow = {
     init: function() {
+        console.log('自动填写物流地址准备完毕');
         $('#J_NewAddress').append('<button class="one-key-address">一键填入地址</button>');
         this._bind();
     },

@@ -23,7 +23,7 @@
             "js": ["js/lib/jquery-2.0.0.min.js", "js/content/trade-item-detail.js"]
         },
         {
-            "matches": ["http://buy.taobao.com/auction/buy_now.jhtml*"],
+            "matches": ["http://*/*buy_now.jhtml*"],
             "css": ["css/content/buy-now.css"],
             "js": ["js/lib/jquery-2.0.0.min.js", "js/content/address-list.js", "js/content/buy-now.js"]
         }
